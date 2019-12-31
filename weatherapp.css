@@ -1,0 +1,41 @@
+*{
+    margin: 1;
+    padding:  1;
+    box-sizing: border-box;
+}
+
+body {
+    height: 111vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(10, 23, 99));
+    font-family: sans-serif;
+    color: whitesmoke
+}
+
+.location, 
+.temperature,
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column
+
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 100x;
+    font-size: 50px;
+}
+.degree-section h2 {
+    font-size: 100px;
+}
