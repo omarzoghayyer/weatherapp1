@@ -7,7 +7,7 @@ h1  {
     font: 100;
     font-size: 100;
     display: flex;
-    color: brown;
+    color: rgb(221, 216, 216);
     
 }
 
@@ -23,32 +23,40 @@ body {
 
 }
 
-.location, 
-.temperature,
-    height: 50vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
+
+.temperature{
+    height: 250px;
     align-items: center;
     font-size: 70px;
+}
+.location {
+    height: 100px;
+    align-items: center;
+    font-size: 70px;
+}
+.location-timezone{
+    font-size: large;
 
 }
 .temperature{
     flex-direction: column-reverse
-
 
 }
 .degree-section {
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 70px;
-
 }
 .degree-section span {
     margin: 100x;
-    font-size: 70px;
+    font-size: 40px;
 }
 .degree-section h2 {
-    font-size: 70px;
+    font-size: 40px;
+    float: center;
+}
+.temperature-description{
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-left: 30px;
 }
